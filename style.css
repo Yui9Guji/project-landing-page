@@ -18,6 +18,16 @@ body {
    height: auto;
 }
 
+button {
+   font-family: 'Sora';
+   border: none;
+   border-radius: 8px;
+   background: #3882f6;
+   padding: 8px 16px;
+   color: #f9faf8;
+   font-weight: bold;
+}
+
 a {
    text-decoration: none;
    font-size: 18px;
@@ -70,12 +80,11 @@ ul {
 
 
 .text {
-   display: flex;
+   /* display: flex;
    flex-direction: column;
-   flex-wrap: wrap;
+   flex-wrap: wrap; */
 
    max-width: 75vh;
-   gap: 16px;
 }
 
 .text-header {
