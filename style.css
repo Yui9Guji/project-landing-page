@@ -47,7 +47,7 @@ ul {
    background-color: #1f2937;
 }
 
-.header, .upper-body, .body, .quote, .footer {
+.header, .upper-body, .body, .quote, .bottom, .footer {
    padding-left: 128px;
    padding-right: 128px;
 }
