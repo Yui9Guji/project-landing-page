@@ -118,14 +118,41 @@ ul {
 .body {
    display: flex;
    flex-direction: column;
+   padding-top: 32px;
+   padding-bottom: 64px;
 }
 
-.image-and-text {
+.text-middle {
+   text-align: center;
+   font-weight: bold;
+   color: #1f2937;
+   font-size: 36px;
+   margin-bottom: 64px;
+}
+
+.body-images {
    display: flex;
    flex-direction: row;
-   gap: 64px;
+   justify-content: space-around;
+   margin-bottom: 8px;
 }
 
-.upper-body-image {
-   border: 10px solid black;
+.block-image {
+   width: 192px;
+   height: auto;
+
+   border: 4px solid;
+   border-color: #3882f6;
+   border-radius: 64px;
+}
+
+.body-text {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.text-under-image {
+   max-width: 192px;
+   text-align: center;
 }
