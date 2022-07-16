@@ -47,11 +47,15 @@ ul {
    background-color: #1f2937;
 }
 
-.header, .upper-body, .body, .quote, .bottom, .footer {
+.header, .upper-body,.bottom, .footer {
    padding-left: 128px;
    padding-right: 128px;
 }
 
+.body, .quote {
+   padding-left: 256px;
+   padding-right: 256px;
+}
 
 
 .header {
@@ -114,4 +118,14 @@ ul {
 .body {
    display: flex;
    flex-direction: column;
+}
+
+.image-and-text {
+   display: flex;
+   flex-direction: row;
+   gap: 64px;
+}
+
+.upper-body-image {
+   border: 10px solid black;
 }
